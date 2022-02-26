@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/font/RedHatDisplay-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/font/RedHatDisplay-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/font/RedHatDisplay-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/font/RedHatDisplay-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/font/RedHatDisplay-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/font/RedHatDisplay-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/font/RedHatDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/font/RedHatDisplay-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display';
+    background-color: hsl(225, 100%, 94%);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.custom-shape-divider-top-1645756413 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1645756413 svg {
+    position: relative;
+    display: block;
+    width: calc(166% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1645756413 .shape-fill {
+    fill: #d6e1ff;
+}
+
+.main_container {
+    margin: auto;
+    width: 20%;
+    position: relative;
+    top: 150px;
+    max-width: 1150px;
+    z-index: 1;
+}
+
+.card {
+    width: 450px;
+    height: 650px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: 900;
+    font-style: normal;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 15px;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+.main_text .main_paragraph {
+    text-align: center;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    width: 292px;
+}
+
+.plan_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: auto;
+    max-width: 1100px;
+    width: 80%;
+    height: 80px;
+}
+
+.plan_info {
+    display: flex;
+}
+
+.plan_info img{
+    padding-right: 15px;
+}
+
+.plan_box .change_text{
+    text-decoration: underline;
+    color: #382ae1;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.plan_box .change_text:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #766cf1;
+}
+
+.plan_text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.plan_text h2{
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.plan_text p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.buttons_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.buttons_container .first_button{
+    background-color: #382ae1;
+    color: white;
+    width: 356px;
+    height: 50px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+
+.buttons_container .first_button:hover{
+    background-color: #766cf1;
+    cursor: pointer;
+}
+
+.buttons_container .first_button p{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.buttons_container .cancel_button{
+    width: 356px;
+    height: 50px;
+    border-radius: 9px;
+}
+
+.buttons_container .cancel_button p{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+    font-style: normal;
+    color: hsl(224, 23%, 55%);
+}
+
+.buttons_container .cancel_button p:hover{  
+    cursor: pointer;
+    color: hsl(223, 47%, 23%)
+}
+
+/* Responsive View */
+
+@media screen and (max-width: 375px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .main_container {
+        width: 100%;
+        position: relative;
+        top: 150px;
+        left: 16px;
+        height: auto;
+    }
+    
+    .card {
+        width: 340px;
+        height: 585px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-style: normal;
+        font-size: 24px;
+    }
+
+    .main_text .main_paragraph {
+        font-weight: 500;
+        width: 262px;
+        line-height: 1.6;
+    }
+
+    .card .illustration {
+        width: 100%;
+    }
+
+    .plan_box .change_text{
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    .plan_info {
+        display: flex;
+        align-items: center;
+    }  
+
+    .plan_text h2{
+        font-weight: 900;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    .plan_text p{
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    .buttons_container .first_button{
+        width: 270px;
+        height: 50px;
+        border-radius: 9px;
+    }
+
+    .buttons_container .cancel_button{
+        width: 270px;
+        height: 50px;
+        border-radius: 9px;
+    }
+}
