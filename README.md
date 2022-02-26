@@ -45,6 +45,7 @@ Instead of import fonts from Google Fonts, I decided to use the @font-face prope
 
 - [Transfonter](https://transfonter.org/) - This helped me to convert font from TTF/OTF to woff2 format.
 - [Shape Divider](https://www.shapedivider.app/) - This is an amazing SVG shape generator which helped me to create the background.
+- [Can I Use](https://caniuse.com/) - This page provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
 
 ## Author
 
